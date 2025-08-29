@@ -153,3 +153,26 @@ button:hover {
 .empty-state.hidden {
     display: none;
 }
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .input-section {
+        flex-direction: column;
+    }
+    
+    #addTaskBtn {
+        width: 100%;
+    }
+    
+    .filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filters button {
+        width: 100%;
+    }
+}
